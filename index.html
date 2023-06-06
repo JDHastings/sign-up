@@ -5,17 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Now!!!</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./style/normalize.css">
+    <link rel="stylesheet" href="./style/styles.css">
 </head>
 <body>
     <div class="left">
-        
+
     </div>
     <div class="right">
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name">
+
+        <p>This is not a real online service! Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nec feugiat in fermentum
+             posuere. Nisl condimentum id venenatis a condimentum vitae sapien pellentesque. Hendrerit 
+             dolor magna eget est lorem ipsum dolor sit amet. Lectus arcu bibendum at varius vel pharetra vel.
+        </p>
+
+        <h2>You know you want to.</h2>
+
+        <form action="#" id="create-account">
+            <h1>Lets do this!</h1>
+            <div class="form-container">
+                <div class="left-container">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname">
+                
+                    <label for="mail">Email: </label>
+                    <input type="email" id="mail" name="mail">
+                    
+
+                    <label for="pass">Password: </label>
+                    <input type="password" id="pass" name="pass">
+                    
+                </div>    
+                
+                <div class="right-container">
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname">
+
+                    <label for="num">Phone number:</label>
+                    <input type="text" id="num" name="num" pattern="[0-9]{9}">
+                    
+
+                    <label for="conpass">Confirm password:</label>
+                    <input type="password" id="conpass" name="conpass">
+                </div>
+            </div>
         </form>
+
+        <button form="create-account" type="submit">Create account</button>
+        <p>Already have an account? <a href="index.html">Log in</a></p>
     </div>
 </body>
 </html>
